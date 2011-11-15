@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Glow Tiles</string>
+    <string name="description">Colored tiles glow elegantly in patterns.</string>
+    <string name="glow_tiles_settings">Glow Tiles settings</string>
+    <string name="random_pattern">Random pattern</string>
+    <string name="pattern">Pattern</string>
+    <string name="speed">Speed</string>
+    <string name="pref_mix_colors_title">Mix tile colors</string>
+    <string name="pref_random_pattern_title">Random glow pattern</string>
+    <string name="pref_pattern_title">Glow pattern</string>
+    <string name="pref_pattern_summary">No effect if random pattern is checked</string>
+    <string name="pref_speed_title">Glow speed</string>
+    <string name="pref_border_title">Tile border width</string>
+    <string name="pref_size_title">Tile size</string>
+    <string name="tile_color_1">Tile color 1</string>
+    <string name="tile_color_2">Tile color 2</string>
+    <string name="press_color_to_apply">Touch color block to select</string>
+    <string name="dialog_color_picker">Pick glow color</string>
+</resources>

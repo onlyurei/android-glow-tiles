@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:robobunny="http://robobunny.com">
+	<com.att.preference.colorpicker.ColorPickerPreference
+		android:key="color1" android:title="@string/tile_color_1"
+		android:defaultValue="@integer/COLOR_BLACK" alphaSlider="false" />
+	<com.att.preference.colorpicker.ColorPickerPreference
+		android:key="color2" android:title="@string/tile_color_2"
+		android:defaultValue="@integer/COLOR_WHITE" alphaSlider="false" />
+	<CheckBoxPreference android:key="mixColors"
+		android:persistent="true" android:title="@string/pref_mix_colors_title"
+		android:defaultValue="true" />
+	<com.robobunny.SeekBarPreference
+		android:key="tileSize" android:title="@string/pref_size_title"
+		android:defaultValue="120" robobunny:min="10" android:max="240" />
+	<com.robobunny.SeekBarPreference
+		android:key="strokeWidth" android:title="@string/pref_border_title"
+		android:defaultValue="5" robobunny:min="1" android:max="10" />
+	<com.robobunny.SeekBarPreference
+		android:key="speed" android:title="@string/pref_speed_title"
+		android:defaultValue="10" robobunny:min="1" android:max="60" />
+	<CheckBoxPreference android:key="randomPattern"
+		android:persistent="true" android:title="@string/pref_random_pattern_title"
+		android:defaultValue="true" />
+	<com.robobunny.SeekBarPreference
+		android:key="pattern" android:title="@string/pref_pattern_title"
+		android:summary="@string/pref_pattern_summary" android:defaultValue="500"
+		robobunny:min="1" android:max="1000" />
+</PreferenceScreen>
